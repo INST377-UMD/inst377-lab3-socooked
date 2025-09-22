@@ -1,0 +1,88 @@
+/* Background/General Text */
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffce9d;
+    text-align: center;
+}
+
+/* Head/Foot */
+.header-footer {
+    background-color: #2009ec;
+    color: rgb(244, 244, 244);
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #0501eb;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(0, 255, 251);
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+nav ul li a:hover {
+    background-color: #f01616;
+}
+
+/* Container forr sidebar and main */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Main */
+.main-content {
+    width: 60%;
+    background-color: #0d00ff;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background-color: #fafafa;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+.sidebar:hover {
+    background-color: #0a06ef;
+}
+
+/* Form */
+form {
+    text-align: left;
+}
+
+input[type="text"] {
+    width: 200px;
+    transition: width 0.3s ease;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
